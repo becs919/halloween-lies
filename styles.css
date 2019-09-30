@@ -5,11 +5,30 @@ body{
     text-align: center;
     height: 100%;
     overflow-y: scroll;
-    cursor: url(assets/knife.png), auto;
+    background-image: url("assets/scary-vampires-horror.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: white;
+}
+
+h1 {
+  font-size: 40px;
+}
+
+p {
+  font-size: 25px;
 }
 
 .titles {
   font-family: 'Nosifer', cursive;
+}
+
+#character {
+  font-family: 'Nosifer', cursive;
+}
+
+.hide-button {
+  display: none;
 }
 
 section {
@@ -17,8 +36,9 @@ section {
 }
 
 a {
-  color: black;
+  color: red;
 }
 
 a:hover {
+  cursor: pointer;
 }
