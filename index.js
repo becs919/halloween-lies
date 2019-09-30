@@ -14,7 +14,7 @@ let getCharacter = () => {
     hide.style.display = "inline";
   } else {
     hideCharacter();
-    alert("Opps try again!")
+    alert("Ooops try again!")
     hide.style.display = "none";
   }
 }
