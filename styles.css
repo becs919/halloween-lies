@@ -1,5 +1,24 @@
 body{
     overflow-y:hidden;
-    font-family: 'Nosifer', cursive;
     text-transform: lowercase;
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    height: 100%;
+    overflow-y: scroll;
+    cursor: url(assets/knife.png), auto;
+}
+
+.titles {
+  font-family: 'Nosifer', cursive;
+}
+
+section {
+  margin: 5em;
+}
+
+a {
+  color: black;
+}
+
+a:hover {
 }
