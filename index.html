@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Halloween Lies</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Nosifer&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <section>
+      <h1>Halloween Lies</h1>
+      <h3>You are cordially invited to Halloween Lies, an evening of murder, blackmail and movies</h3>
+      <ul>
+        <li>
+          <a href="assets/playing_a_murder_mystery_game.pdf" target="_blank">Read more</a>
+        </li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Welcome to Hollywood!</h2>
+      <p>It is award night and Tom Speed’s latest film, The Vampire Detective, has just
+        swept the board and won four “Skellies” for Best Picture, Best Actor, Best
+        Director and Best Screenplay. Sadly, Tom Speed’s award for Best Actor
+        was accepted posthumously by his friend, Hayden Vicars, as Tom was
+        killed in a driving accident late last night…</p>
+      <p>Despite this note of sadness, celebrations are in full swing at The Vampire
+        Detective’s post-award party. Deals are being cut for future productions and
+        everyone is having a good time enjoying the atmosphere and mingling with
+        Hollywood’s movers and shakers.</p>
+      <p>Is there anything suspicious about Tom Speed’s death? Who will win next
+        year’s Skellies? Find out at Halloween Lies.</p>
+    </section>
+
+    <section>
+      <h2>Your Character</h2>
+      <h3>(KEEP SECRET until the event!)</h3>
+      <p>Enter your code below to see your character - the person you will be playing. You
+        will receive more background information, your character’s detailed goals, full cast list,
+        simple rules and some cool abilities on the day.</p>
+      <p>Despite this note of sadness, celebrations are in full swing at The Vampire
+        Detective’s post-award party. Deals are being cut for future productions and
+        everyone is having a good time enjoying the atmosphere and mingling with
+        Hollywood’s movers and shakers.</p>
+      <p>Is there anything suspicious about Tom Speed’s death? Who will win next
+        year’s Skellies? Find out at Halloween Lies.</p>
+    </section>
+
+    <section>
+      <h3>Reveal Your Character</h3>
+      <input type="text" placeholder="Enter Code" class="code"/>
+      <button onclick="getCharacter()">Enter</button>
+    </section>
+
+    <section>
+      <h3 id="character"><h3>
+      <p id="desc"></p>
+      <button onclick="hideCharacter()">Hide Character</button>
+    </section>
+
+
+    <script src="index.js"></script>
+    <script type="text/javascript" src="data.js"></script>
+  </body>
+</html>
